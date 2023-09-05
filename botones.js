@@ -35,5 +35,17 @@ function botones(pagina){
             var win = window.open("https://drive.google.com/file/d/1h0iyDFvY2C4K6mwDy6YSAbjxpwfcMXQl/view?usp=sharing", "_blank");
             win.focus;
             break;
+        case 'intellij':
+            var win = window.open("https://www.jetbrains.com/idea/", "_blank");
+            win.focus;
+            break;
+        case 'visual':
+            var win = window.open("https://code.visualstudio.com/", "_blank");
+            win.focus;
+            break;
+        case 'eclipse':
+            var win = window.open("https://eclipseide.org/", "_blank");
+            win.focus;
+            break;
     }
 }
