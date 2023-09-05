@@ -32,7 +32,7 @@ function botones(pagina){
             win.focus;
             break;
         case 'cv':
-            var win = window.open("", "_blank");
+            var win = window.open("https://drive.google.com/file/d/1h0iyDFvY2C4K6mwDy6YSAbjxpwfcMXQl/view?usp=sharing", "_blank");
             win.focus;
             break;
     }
