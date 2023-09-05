@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="botones.js"></script>
+    <title>Miguel Vazquez Portafolio</title>
+</head>
+<body class="bg-secondary">
+    <div>
+        <header class="container-fluid p-5 my-5 bg-dark text-white">
+            <div class="row">
+                <div class="col p-2">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                        <div class="container-fluid" id="0">
+                            <button type="button" name="nombre" onclick="botones('nombre')" class="btn text-white text-start col-9">Miguel Vazquez</button>
+                          <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon text-white"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#1">Sobre Mi</a>
+                              </li>
+                              <li class="nav-item ">
+                                <a class="nav-link text-white" href="#5">Documentos</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Programas
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="#2">Sistema uridec</a></li>
+                                  <li><a class="dropdown-item" href="#3">Pagina Uridec</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="#4">Paint</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item ">
+                                <a class="nav-link text-white" href="#9">Contacto</a>
+                              </li>
+                              <li class="nav-item ">
+                                <a class="nav-link text-white" href="#6">Experiencia</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                    </nav>
+                </div>
+                <button class="btn text-white text-center" data-bs-toggle="collapse" data-bs-target="#foto"><h1>Portafolio</h1><p>CV</p></button>
+                <div id="foto" class="collapse" style="text-align: center;">
+                    <img src="img/fotPerfil.jpg" class="rounded-circle" alt="Cinque Terre" width="100" height="100">
+                    <br>
+                    <button class="btn btn-secondary text-center" name="cv" id="cv" onclick="botones('cv')">Descargar CV</button>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div>
+        <section class="container-fluid p-4" id="1">
+            <h2>Miguel Vazquez</h2>
+            <p class="p-1 h5" >
+                Programador con conocimientos en HTML, JavaScript, CSS, PYTHON, KOTLIN COMPOSE 
+            </p>
+            <p  class="p-1 h5" >
+                Me encanta centrarme en los detalles de las experiencias de nuevos 
+                productos con una buena implementación en código. Pero los grandes 
+                productos no comienzan ahí, comienzan con una sólida colaboración con 
+                los compañeros de equipo de investigación, ingeniería y productos para 
+                comprender los problemas y las circunstancias de los clientes.
+            </p>
+        </section>
+        <br>
+        <section class="container">
+            <div class="card img-fluid" id="2">
+                <img class="card-img-top " src="img/sistemaDePruebasAUridec.png" alt="programaURIDEC">
+                <div class="card-img-overlay"><br>
+                    <h4 class="card-title text-bg-light col-3">URIDEC</h4>
+                    <p class="card-text col p-2 h6 text-bg-light ">
+                        Aplicacion de escritorio realizado en kotlin Compose dedicado a la automatización de pruebas de 
+                        estres y unitarias para el sistema de Digitalizador de expedientes tambien llamado 'Sistema URIDEC'
+                        donde al finalizar genera un reporte en Exel y lo envia por Email. 
+                    </p>
+                    <button class="col btn btn-light" onclick="botones('uridec')">Ver Codigo</button>
+                </div>
+            </div>
+            <br>
+            <div class="card img-fluid">
+                <div class="card img-fluid" id="3">
+                    <img class="card-img-top " src="img/paginaUridec.png" alt="paginaUridec">
+                    <div class="card-img-overlay"><br>
+                        <h4 class="card-title col">Copia funcional de la pagina original URIDEC</h4>
+                        <p class="card-text col p-1 h6 ">
+                            Proyecto de una pagina simple para realizar pruebas al proyecto sistemaUridec
+                        </p>
+                        <button class="col btn btn-light" onclick="botones('pagUridec')">Ver Codigo</button>
+                        <button class="col btn btn-light" onclick="botones('pagina_pagUridec')">Ver Pagina</button>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card img-fluid">
+                <div class="card img-fluid" id="4">
+                    <img class="card-img-top " src="img/programaPaint.png" alt="programaURIDEC">
+                    <div class="card-img-overlay"><br>
+                        <h4 class="card-title col-2">Paint</h4>
+                        <p class="card-text col p-1 h6 ">
+                            programa de una pequeña pagina html, css y javascript para dibujar figuras
+                        </p>
+                        <button class="col btn btn-light" onclick="botones('paint')">Ver Codigo</button>
+                        <button class="col btn btn-light" onclick="botones('pag_paint')">Ver Pagina</button>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card ">
+                <div class="card-body" id="5">
+                    <h4 class="card-title col">Documentos</h4>
+                    <p class="card-text col p-1 h6 ">
+                        Durante mi servicio social me desempeñe en dos áreas en particular las cuales 
+                        fueron los análisis de requerimientos y en el área de tester para los diferente 
+                        proyectos que se fueron asignados al departamento de desarrollo, centrándome en 
+                        la parte funcional de ambas ramas y siguiendo los protocolos de las ISO establecidas.
+                        <br><br>
+                        De estos documentos se realizaron algunos de los programas presentados aqui. 
+                    </p>
+                    <button class="col btn btn-light" onclick="botones('documentos')">Ver Codigo</button>
+                </div>
+            </div>
+            <br>
+            <div class="card bg-dark">
+                <div class="card-body" id="6">
+                    <div class="card-header">
+                        <h3 class="card-title text-white">Experiencia</h3>
+                        <p class="card-text p-1 h6 text-white">
+                         Cuento con 6 meses de experiencia en desarrollo funcional de aplicaciones y 
+                         documentacion en Analicis de Requerimientos y Casos de pruebas de proyectos. 
+                    </p>
+                    </div>
+                    <br>
+                    <br>
+                    <h4 class="card-text col text-white">CONDUSEF</h4>
+                    <p class="card-text h6 col text-white">
+                        2023 - Actualidad, Ciudad de México 
+                        <br>
+                        Durante mi servicio social me desempeñe en dos áreas en particular 
+                        las cuales fueron los análisis de requerimientos y en el área de 
+                        tester para los diferente proyectos que se fueron asignados al 
+                        departamento de desarrollo, centrándome en la parte funcional de 
+                        ambas ramas y siguiendo los protocolos de las ISO establecidas.
+                    </p>
+                    <br>
+                    <h4 class="card-text col text-white">MaykCoffe</h4>
+                    <p class="card-text h6 col text-white">
+                        2021 - Actualidad
+                        <br>
+                        Administro un pequeño negocio brindando alimentos bebidas, gestion 
+                        del establecimiento con sus probeedores y atencion al cliete. 
+                    </p>
+                    <br>
+                    <h4 class="card-text col text-white">Jade Bocadillos</h4>
+                    <p class="card-text h6 col text-white">
+                        2013 - 2019
+                        <br>
+                        Mi experiencia se desenvuelve en diferentes áreas desde cocina, 
+                        limpieza, administración, manejo de personal, chequeo de caja 
+                        incluyendo atención al cliente y manejo de problemas. 
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <br>
+    <div>
+        <footer class="container-fluid p-5 my bg-dark text-white" id="9">
+            <h3 class="text-white">Contacto</h3>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 container-fluid">
+                    <li class="nav-item col-7">
+                        <a class="btn text-white" href="#0">
+                            <p class="h4">Miguel Vazquez</p>
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <button class="col btn text-white" onclick="botones('github')">GitHub</button>
+                    </li>
+                    <li>
+                        <a class="btn text-white" href="mailto:miguelvazquez870@gmail.com" >miguelvazquez870@gmail.com</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </footer>
+    </div>
+</body>
+</html>
