@@ -23,16 +23,20 @@ function botones(pagina){
             var win = window.open("https://zeuqzavleugim.github.io/paint/", "_blank");
             win.focus;
             break;
+        case 'cafeteria':
+            var win = window.open("https://zeuqzavleugim.github.io/pagCafeteriaMaykCoffe/", "_blank");
+            win.focus;
+            break;
+        case 'pag_cafeteria':
+            var win = window.open("https://github.com/zeuqzavleugim/pagCafeteriaMaykCoffe", "_blank");
+            win.focus;
+            break;
         case 'documentos':
             var win = window.open("https://drive.google.com/drive/folders/1ekr6QDu3qypBBTG08FqkOTcmKsfdgXhR?usp=drive_link", "_blank");
             win.focus;
             break;
         case 'github':
             var win = window.open("https://github.com/zeuqzavleugim", "_blank");
-            win.focus;
-            break;
-        case 'cv':
-            var win = window.open("https://drive.google.com/file/d/1h0iyDFvY2C4K6mwDy6YSAbjxpwfcMXQl/view?usp=sharing", "_blank");
             win.focus;
             break;
         case 'intellij':
