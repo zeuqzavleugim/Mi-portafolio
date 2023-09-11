@@ -52,7 +52,7 @@ function botones(pagina){
             win.focus;
             break;
         case 'linkedin':
-            var win = window.open("www.linkedin.com/in/miguel-vazquez-170abb15a", "_blank");
+            var win = window.open("https://www.linkedin.com/in/miguel-vazquez-170abb15a", "_blank");
             win.focus;
             break;
     }
