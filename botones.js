@@ -51,5 +51,9 @@ function botones(pagina){
             var win = window.open("https://eclipseide.org/", "_blank");
             win.focus;
             break;
+        case 'linkedin':
+            var win = window.open("www.linkedin.com/in/miguel-vazquez-170abb15a", "_blank");
+            win.focus;
+            break;
     }
 }
