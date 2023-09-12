@@ -55,5 +55,13 @@ function botones(pagina){
             var win = window.open("https://www.linkedin.com/in/miguel-vazquez-170abb15a", "_blank");
             win.focus;
             break;
+        case 'calculadora_cod':
+            var win = window.open("https://github.com/zeuqzavleugim/calculadora", "_blank");
+            win.focus;
+            break;
+        case 'calculadora':
+            var win = window.open("https://zeuqzavleugim.github.io/calculadora/", "_blank");
+            win.focus;
+            break;
     }
 }
