@@ -81,143 +81,163 @@
         </section>
         <br>
         <section class="container">
-            <h2>Programas</h2>
+            <h2 class="text-center">Programas</h2>
             <br>
-            <div class="card"id="sistema_uridec">
-                <img class="card-img-top " src="img/sistemaDePruebasAUridec.png" alt="programaURIDEC">
-                <div class="card-body">
-                    <h4 class="card-title">URIDEC</h4>
-                    <p class="card-text p-2 h6">
-                        Aplicacion de escritorio realizado en kotlin Compose dedicado a la automatización de pruebas de 
-                        estres y unitarias para el sistema de Digitalizador de expedientes tambien llamado 'Sistema URIDEC'
-                        donde al finalizar genera un reporte en Exel y lo envia por Email. 
-                    </p>
-                    <button class="col btn btn-light" onclick="botones('uridec')">Ver Codigo</button>
-                </div>
-            </div>
-            <br>
-            <div class="card" id="pagina_uridec">
-                <img class="card-img-top " src="img/paginaUridec.png" alt="paginaUridec">
-                <div class="card-body">
-                    <h4 class="card-title">Copia funcional de la pagina original URIDEC</h4>
-                    <p class="card-text p-1 h6 ">
-                        Proyecto de una pagina simple para realizar pruebas al proyecto sistemaUridec
-                    </p>
-                    <p class="card-text p-1 h6 ">
-                        Para pasar el login: <br>
-                        usuario: miguel <br>
-                        contraseña: 12345678
-                    </p>
-                    <button class="col btn btn-light" onclick="botones('pagUridec')">Ver Codigo</button>
-                    <button class="col btn btn-light" onclick="botones('pagina_pagUridec')">Ver Pagina</button>
-                </div>
-            </div>
-            <br>
-            <div class="card" id="paint">
-                <img class="card-img-top " src="img/programaPaint.png" alt="programaPaint">
-                <div class="card-body">
-                    <h4 class="card-title col-2">Paint</h4>
-                    <p class="card-text col p-1 h6 ">
-                        programa de una pequeña pagina html, css y javascript para dibujar figuras
-                    </p>
-                    <button class="col btn btn-light" onclick="botones('paint')">Ver Codigo</button>
-                    <button class="col btn btn-light" onclick="botones('pag_paint')">Ver Pagina</button>
-                </div>
-            </div>
-            <br>
-            <div class="card" id="cafeteria">
-                <img class="card-img-top " src="img/pag_cafeteria.png" alt="pag_cafeteria">
-                <div class="card-body">
-                    <h4 class="card-title col-2">Cafeteria</h4>
-                    <p class="card-text col p-1 h6 ">
-                        Pagina Web de un pequeño negocio realizado en HTML, CSS y JavaScript
-                    </p>
-                    <button class="col btn btn-light" onclick="botones('pag_cafeteria')">Ver Codigo</button>
-                    <button class="col btn btn-light" onclick="botones('cafeteria')">Ver Pagina</button>
-                </div>
-            </div>
-            <br>
-            <div class="card" id="calculadora">
-                <img class="card-img-top " src="img/calculadora.png" alt="calculadora">
-                <div class="card-body">
-                    <h4 class="card-title col-3">Calculadora</h4>
-                    <p class="card-text col p-1 h6 ">
-                        Pagina Web de calculadora realizado en HTML, CSS y JavaScript
-                    </p>
-                    <button class="col btn btn-light" onclick="botones('calculadora_cod')">Ver Codigo</button>
-                    <button class="col btn btn-light" onclick="botones('calculadora')">Ver Pagina</button>
-                </div>
-            </div>
-            <br>
-            <h2 id="7">IDEs</h2>
-            <div class="card img-fluid">
-                <div class="card img-fluid" >
-                    <img class="card-img-top " src="img/IDEs.png" alt="IDEs">
-                    <div class="card-img-overlay"><br>
-                        <h4 class="card-title text-white col-2">IDE</h4>
-                        <p class="card-text text-white col p-1 h6 ">
-                            IDEs principales con los que que trabajado 
-                        </p>
-                        <button class="col btn btn-light" onclick="botones('intellij')">ir a intellij</button>
-                        <button class="col btn btn-light" onclick="botones('visual')">ir a visual studio</button>
-                        <button class="col btn btn-light" onclick="botones('eclipse')">ir a eclipse</button>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <h2  id="5">Documentos</h2>
-            <div class="card ">
-                <div class="card-body">
-                    <p class="card-text col p-1 h6 ">
-                        Durante mi servicio social me desempeñe en dos áreas en particular las cuales 
-                        fueron los análisis de requerimientos y en el área de tester para los diferente 
-                        proyectos que se fueron asignados al departamento de desarrollo, centrándome en 
-                        la parte funcional de ambas ramas y siguiendo los protocolos de las ISO establecidas.
-                        <br><br>
-                        De estos documentos se realizaron algunos de los programas presentados aqui. 
-                    </p>
-                    <button class="col btn btn-light" onclick="botones('documentos')">Ver Codigo</button>
-                </div>
-            </div>
-            <br>
-            <div class="card bg-dark">
-                <div class="card-body" id="6">
-                    <div class="card-header">
-                        <h3 class="card-title text-white">Experiencia</h3>
-                        <p class="card-text p-1 h6 text-white">
-                         Cuento con 6 meses de experiencia en desarrollo funcional de aplicaciones y 
-                         documentacion en Análisis de Requerimientos y Casos de pruebas de proyectos. 
-                    </p>
+            <div class="row text-center">
+                <div class="col-xl-auto">
+                    <div class="card container" style="width: 25rem;" id="sistema_uridec">
+                        <img class="card-img-top " src="img/sistemaDePruebasAUridec.png" alt="programaURIDEC">
+                        <div class="card-body">
+                            <h4 class="card-title">URIDEC</h4>
+                            <p class="card-text p-2 h6">
+                                Aplicacion de escritorio realizado en kotlin Compose dedicado a la automatización de pruebas de 
+                                estres y unitarias para el sistema de Digitalizador de expedientes tambien llamado 'Sistema URIDEC'
+                                donde al finalizar genera un reporte en Exel y lo envia por Email. 
+                            </p>
+                            <button class="col btn btn-light" onclick="botones('uridec')">Ver Codigo</button>
+                        </div>
                     </div>
                     <br>
+                </div>
+                <div class="col-xl-auto">
+                    <div class="card container" style="width: 25rem;"  id="pagina_uridec">
+                        <img class="card-img-top " src="img/paginaUridec.png" alt="paginaUridec">
+                        <div class="card-body">
+                            <h4 class="card-title">Copia funcional de la pagina original URIDEC</h4>
+                            <p class="card-text p-1 h6 ">
+                                Proyecto de una pagina simple para realizar pruebas al proyecto sistemaUridec
+                            </p>
+                            <p class="card-text p-1 h6 ">
+                                Para pasar el login: <br>
+                                usuario: miguel <br>
+                                contraseña: 12345678
+                            </p>
+                            <button class="col btn btn-light" onclick="botones('pagUridec')">Ver Codigo</button>
+                            <button class="col btn btn-light" onclick="botones('pagina_pagUridec')">Ver Pagina</button>
+                        </div>
+                    </div>
                     <br>
-                    <h4 class="card-text col text-white">CONDUSEF</h4>
-                    <p class="card-text h6 col text-white">
-                        2023 - Actualidad, Ciudad de México 
-                        <br>
-                        Durante mi servicio social me desempeñe en dos áreas en particular 
-                        las cuales fueron los análisis de requerimientos y en el área de 
-                        tester para los diferente proyectos que se fueron asignados al 
-                        departamento de desarrollo, centrándome en la parte funcional de 
-                        ambas ramas y siguiendo los protocolos de las ISO establecidas.
-                    </p>
+                </div>
+                <div class="col-xl-auto">
+                    <div class="card container" style="width: 25rem;" id="paint">
+                        <img class="card-img-top " src="img/programaPaint.png" alt="programaPaint">
+                        <div class="card-body">
+                            <h4 class="card-title col-2">Paint</h4>
+                            <p class="card-text col p-1 h6 ">
+                                programa de una pequeña pagina html, css y javascript para dibujar figuras
+                            </p>
+                            <button class="col btn btn-light" onclick="botones('paint')">Ver Codigo</button>
+                            <button class="col btn btn-light" onclick="botones('pag_paint')">Ver Pagina</button>
+                        </div>
+                    </div>
                     <br>
-                    <h4 class="card-text col text-white">MaykCoffe</h4>
-                    <p class="card-text h6 col text-white">
-                        2021 - Actualidad
-                        <br>
-                        Administro un pequeño negocio en venta de alimentos y bebidas, gestion 
-                        del establecimiento con sus proveedores y atencion al cliete. 
-                    </p>
+                </div>
+                <div class="col-xl-auto">
+                    <div class="card container" style="width: 25rem;" id="cafeteria">
+                        <img class="card-img-top " src="img/pag_cafeteria.png" alt="pag_cafeteria">
+                        <div class="card-body">
+                            <h4 class="card-title col-2">Cafeteria</h4>
+                            <p class="card-text col p-1 h6 ">
+                                Pagina Web de un pequeño negocio realizado en HTML, CSS y JavaScript
+                            </p>
+                            <button class="col btn btn-light" onclick="botones('pag_cafeteria')">Ver Codigo</button>
+                            <button class="col btn btn-light" onclick="botones('cafeteria')">Ver Pagina</button>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="col-xl-auto">
+                    <div class="card container" style="width: 25rem;"  id="calculadora">
+                        <img class="card-img-top " src="img/calculadora.png" alt="calculadora">
+                        <div class="card-body">
+                            <h4 class="card-title col-3">Calculadora</h4>
+                            <p class="card-text col p-1 h6 ">
+                                Pagina Web de calculadora realizado en HTML, CSS y JavaScript
+                            </p>
+                            <button class="col btn btn-light" onclick="botones('calculadora_cod')">Ver Codigo</button>
+                            <button class="col btn btn-light" onclick="botones('calculadora')">Ver Pagina</button>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="col-xl-auto ">
                     <br>
-                    <h4 class="card-text col text-white">Jade Bocadillos</h4>
-                    <p class="card-text h6 col text-white">
-                        2013 - 2019
-                        <br>
-                        Mi experiencia se desenvuelve en diferentes áreas desde cocina, 
-                        limpieza, administración, manejo de personal, chequeo de caja 
-                        incluyendo atención al cliente y manejo de problemas. 
-                    </p>
+                    <h2 id="7">IDEs</h2>
+                    <div class="card img-fluid container" style="width: 25rem;">
+                        <div class="card img-fluid " >
+                            <img class="card-img-top" src="img/IDEs.png" alt="IDEs">
+                            <div class="card-img-overlay"><br>
+                                <h4 class="card-title text-white col-2">IDE</h4>
+                                <p class="card-text text-white col p-1 h6 ">
+                                IDEs principales con los que que trabajado 
+                                </p>
+                                <button class="col btn btn-light" onclick="botones('intellij')">ir a intellij</button>
+                                <button class="col btn btn-light" onclick="botones('visual')">ir a visual studio</button>
+                                <button class="col btn btn-light" onclick="botones('eclipse')">ir a eclipse</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="col-xl-auto">
+                    <br>
+                    <h2  id="5">Documentos</h2>
+                    <div class="card container" style="width: 25rem;">
+                        <div class="card-body">
+                            <p class="card-text col p-1 h6 ">
+                                Durante mi servicio social me desempeñe en dos áreas en particular las cuales 
+                                fueron los análisis de requerimientos y en el área de tester para los diferente 
+                                proyectos que se fueron asignados al departamento de desarrollo, centrándome en 
+                                la parte funcional de ambas ramas y siguiendo los protocolos de las ISO establecidas.
+                                <br><br>
+                                De estos documentos se realizaron algunos de los programas presentados aqui. 
+                            </p>
+                            <button class="col btn btn-light" onclick="botones('documentos')">Ver Codigo</button>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="col-xl-auto">
+                    <div class="card bg-dark container" style="width: 25rem;">
+                        <div class="card-body" id="6">
+                            <div class="card-header">
+                                <h3 class="card-title text-white">Experiencia</h3>
+                                <p class="card-text p-1 h6 text-white">
+                                 Cuento con 6 meses de experiencia en desarrollo funcional de aplicaciones y 
+                                 documentacion en Análisis de Requerimientos y Casos de pruebas de proyectos. 
+                            </p>
+                            </div>
+                            <br>
+                            <br>
+                            <h4 class="card-text col text-white">CONDUSEF</h4>
+                            <p class="card-text h6 col text-white">
+                                2023 - Actualidad, Ciudad de México 
+                                <br>
+                                Durante mi servicio social me desempeñe en dos áreas en particular 
+                                las cuales fueron los análisis de requerimientos y en el área de 
+                                tester para los diferente proyectos que se fueron asignados al 
+                                departamento de desarrollo, centrándome en la parte funcional de 
+                                ambas ramas y siguiendo los protocolos de las ISO establecidas.
+                            </p>
+                            <br>
+                            <h4 class="card-text col text-white">MaykCoffe</h4>
+                            <p class="card-text h6 col text-white">
+                                2021 - Actualidad
+                                <br>
+                                Administro un pequeño negocio en venta de alimentos y bebidas, gestion 
+                                del establecimiento con sus proveedores y atencion al cliete. 
+                            </p>
+                            <br>
+                            <h4 class="card-text col text-white">Jade Bocadillos</h4>
+                            <p class="card-text h6 col text-white">
+                                2013 - 2019
+                                <br>
+                                Mi experiencia se desenvuelve en diferentes áreas desde cocina, 
+                                limpieza, administración, manejo de personal, chequeo de caja 
+                                incluyendo atención al cliente y manejo de problemas. 
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
