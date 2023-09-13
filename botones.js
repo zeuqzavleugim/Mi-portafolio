@@ -63,5 +63,13 @@ function botones(pagina){
             var win = window.open("https://zeuqzavleugim.github.io/calculadora/", "_blank");
             win.focus;
             break;
+        case 'gantt_cod':
+            var win = window.open("https://github.com/zeuqzavleugim/diagramaGantt", "_blank");
+            win.focus;
+            break;
+        case 'gantt':
+            var win = window.open("https://zeuqzavleugim.github.io/diagramaGantt/", "_blank");
+            win.focus;
+            break;
     }
 }
