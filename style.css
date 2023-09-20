@@ -1,6 +1,12 @@
 body{
-    background-color: rgb(101, 221, 171);
+    background-color: #F9F7F7;
 }
-header, nav, footer{
-    background-color: rgb(8, 78, 95);
+.card, header, nav, footer{
+    background-color: #DBE2EF;
+}
+ .dropdown-menu{
+    background-color: #3F72AF;
+}
+p, h1, .h1, h2, h3, h4, .h4,.h5, .h6, .dropdown-item, .nav-link, .card-title{
+    color: #112D4E;
 }
