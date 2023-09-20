@@ -11,14 +11,14 @@
     <link rel="stylesheet" href="style.css">
     <title>Miguel Vazquez Portafolio</title>
 </head>
-<body ><!-- class="bg-secondary" -->
+<body >
     <div>
-        <header class="container-fluid p-5 my-5  text-white"><!-- class: bg-dark -->
+        <header class="container-fluid p-5 my-5  text-white">
             <div class="row">
                 <div class="col p-2">
-                    <nav class="navbar navbar-expand-lg navbar-dark "><!-- class: bg-dark -->
+                    <nav class="navbar navbar-expand-lg navbar-dark ">
                         <div class="container-fluid" id="0">
-                            <button type="button" name="nombre" onclick="botones('nombre')" class="btn text-white text-start col-8">Miguel Vazquez</button>
+                            <button type="button" name="nombre" onclick="botones('nombre')" class="btn text-white text-start col-8"><p class="h1" id="nombreCabezado">Miguel Vazquez</p></button>
                           <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon text-white"></span>
                           </button>
@@ -41,6 +41,7 @@
                                   <li><a class="dropdown-item" href="#paint">Paint</a></li>
                                   <li><a class="dropdown-item" href="#cafeteria">Cafeteria</a></li>
                                   <li><a class="dropdown-item" href="#calculadora">Calculadora</a></li>
+                                  <li><a class="dropdown-item" href="#diagramaDeGantt">Diagrama de Gantt</a></li>
                                 </ul>
                               </li>
                               <li class="nav-item ">
@@ -72,7 +73,7 @@
             <p class="p-1 h5" >
                 Programador con conocimientos en HTML, JavaScript, CSS, PYTHON, KOTLIN COMPOSE 
             </p>
-            <p  class="p-1 h5" >
+            <p  class="p-1 h5" id="informacion">
                 Me encanta centrarme en los detalles de las experiencias de nuevos 
                 productos con una buena implementación en código. Pero los grandes 
                 productos no comienzan ahí, comienzan con una sólida colaboración con 
@@ -164,7 +165,7 @@
                 </div>
                 <br>
                 <div class="col-xl-auto">
-                    <div class="card container" style="width: 25rem;"  id="calculadora">
+                    <div class="card container" style="width: 25rem;"  id="diagramaDeGantt">
                         <img class="card-img-top " src="img/diagrameGantt.png" alt="diagrameGantt">
                         <div class="card-body">
                             <h4 class="card-title">Diagrama Gantt</h4>
@@ -209,7 +210,7 @@
                                 <br><br>
                                 De estos documentos se realizaron algunos de los programas presentados aqui. 
                             </p>
-                            <button class="col btn btn-light" onclick="botones('documentos')">Ver Codigo</button>
+                            <button class="col btn btn-light" onclick="botones('documentos')">Ir a Documentos</button>
                         </div>
                     </div>
                 </div>
