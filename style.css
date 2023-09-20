@@ -7,6 +7,9 @@ body{
  .dropdown-menu{
     background-color: #3F72AF;
 }
-p, h1, .h1, h2, h3, h4, .h4,.h5, .h6, .dropdown-item, .nav-link, .card-title{
+p, h1, .h1, h2, h3, h4, .h4,.h5, .h6, .dropdown-item, .nav-link, .card-title, span, button, .navbar-toggler, .navbar-toggler-icon{
     color: #112D4E;
+}
+#githib, #linkedin, #gmail{
+    width: 45px;
 }
