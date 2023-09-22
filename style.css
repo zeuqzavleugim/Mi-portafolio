@@ -16,3 +16,6 @@ header, footer,  nav{
 #nombreCabezado, .nav-link, #portafolo, #desCv, #cvDes, #nombrePie, #letra{
     color: #F9F7F7;
 }
+#nombreCabezado{
+    font-size: 4rem;
+}
