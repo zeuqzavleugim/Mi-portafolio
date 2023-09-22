@@ -1,15 +1,18 @@
 body{
     background-color: #F9F7F7;
 }
-.card, header, nav, footer{
+.card, .dropdown-menu{
     background-color: #DBE2EF;
 }
- .dropdown-menu{
-    background-color: #3F72AF;
-}
-p, h1, .h1, h2, h3, h4, .h4,.h5, .h6, .dropdown-item, .nav-link, .card-title, span, button, .navbar-toggler, .navbar-toggler-icon{
+p, h1, .h1, h2, h3, h4, .h4,.h5, .dropdown-item, .card-title, span, button{
     color: #112D4E;
 }
 #githib, #linkedin, #gmail{
     width: 45px;
+}
+header, footer,  nav{
+    background-color: #112D4E;
+}
+#nombreCabezado, .nav-link, #portafolo, #desCv, #cvDes, #nombrePie, #letra{
+    color: #F9F7F7;
 }
