@@ -19,3 +19,6 @@ header, footer,  nav{
 #nombreCabezado{
     font-size: 4rem;
 }
+img{
+    border-radius: 1rem;
+}
