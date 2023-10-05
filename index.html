@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
     <!-- Latest compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Latest compiled JavaScript -->
@@ -68,7 +71,7 @@
         </header>
     </div>
     <div>
-        <section class="container p-4" id="1">
+        <section class="container-fluid p-4" id="1">
             <h2>Miguel Vázquez</h2>
             <p class="p-1 h5" >
                 Programador con conocimientos en HTML, JavaScript, CSS, PYTHON, KOTLIN COMPOSE 
@@ -81,8 +84,9 @@
                 comprender los problemas y las circunstancias de los clientes.
             </p>
         </section>
-        <br>
-        <section class="container">
+    </div>
+    <div id="section-aside">
+        <section class="container" id="section-0">
             <h2 class="text-center">Programas</h2>
             <br>
             <div class="row text-center">
@@ -168,10 +172,11 @@
                     <div class="card container" style="width: 25rem;"  id="diagramaDeGantt">
                         <img class="card-img-top my-3" src="img/diagrameGantt.png" alt="diagrameGantt">
                         <div class="card-body">
-                            <h4 class="card-title">Diagrama Gantt</h4>
+                            <h4 class="card-title">Diagrama Gantt</h4><br>
                             <p class="card-text col p-1 h6 ">
                                 Dos prototipos de diagrama de Gantt realizados en HTML, CSS y JavaScript
                             </p>
+                            <br>
                             <button class="col btn btn-light" onclick="botones('gantt_cod')">Ver Codigo</button>
                             <button class="col btn btn-light" onclick="botones('gantt')">Ver Pagina</button>
                         </div>
@@ -181,16 +186,18 @@
                 <div class="col-xl-auto ">
                     <br>
                     <h2 id="7">IDEs</h2>
-                    <div class="card img-fluid container" style="width: 25rem;">
+                    <div class="card img-fluid container" style="width: 25rem;" id="IDEs">
                         <div class="card img-fluid my-3" >
                             <img class="card-img-top " src="img/IDEs.png" alt="IDEs">
-                            <div class="card-img-overlay"><br>
-                                <h4 class="card-title text-white col-2">IDE</h4>
-                                <p class="card-text text-white col p-1 h6 ">
+                            <div class="card-body"><br>
+                                <h4 class="card-title">IDE</h4>
+                                <p class="card-text col p-1 h6 ">
                                 IDEs principales con los que que trabajado 
                                 </p>
                                 <button class="col btn btn-light" onclick="botones('intellij')">ir a intellij</button>
+                                <br><br>
                                 <button class="col btn btn-light" onclick="botones('visual')">ir a visual studio</button>
+                                <br><br>
                                 <button class="col btn btn-light" onclick="botones('eclipse')">ir a eclipse</button>
                             </div>
                         </div>
@@ -200,71 +207,75 @@
                 <div class="col-xl-auto">
                     <br>
                     <h2  id="5">Documentos</h2>
-                    <div class="card container" style="width: 25rem;">
-                        <div class="card-body">
-                            <p class="card-text col p-1 h6 ">
+                    <div class="card container" style="width: 25rem;" id="document">
+                        <div class="card-body" >
+                            <br><br>
+                            <p class="card-text col p-1 h6 " >
                                 Durante mi servicio social me desempeñe en dos áreas en particular las cuales 
                                 fueron los análisis de requerimientos y en el área de tester para los diferente 
                                 proyectos que se fueron asignados al departamento de desarrollo, centrándome en 
                                 la parte funcional de ambas ramas y siguiendo los protocolos de las ISO establecidas.
                                 <br><br>
                                 De estos documentos se realizaron algunos de los programas presentados aqui. 
-                            </p>
+                            </p><br>
                             <button class="col btn btn-light" onclick="botones('documentos')">Ir a Documentos</button>
                         </div>
                     </div>
                 </div>
                 <br>
-                <div class="col-xl-auto my-5">
-                    <div class="card container" style="width: 25rem;">
-                        <div class="card-body" id="6">
-                            <div class="card-header">
-                                <h3 class="card-title">Experiencia</h3>
-                                <p class="card-text p-1 h6">
-                                 Cuento con 6 meses de experiencia en desarrollo funcional de aplicaciones y 
-                                 documentacion en Análisis de Requerimientos y Casos de pruebas de proyectos. 
-                            </p>
-                            </div>
-                            <br>
-                            <br>
-                            <h4 class="card-text col">CONDUSEF</h4>
-                            <p class="card-text h6 col">
-                                2023 - Actualidad, Ciudad de México 
-                                <br>
-                                Durante mi servicio social me desempeñe en dos áreas en particular 
-                                las cuales fueron los análisis de requerimientos y en el área de 
-                                tester para los diferente proyectos que se fueron asignados al 
-                                departamento de desarrollo, centrándome en la parte funcional de 
-                                ambas ramas y siguiendo los protocolos de las ISO establecidas.
-                            </p>
-                            <br>
-                            <h4 class="card-text col">MaykCoffe</h4>
-                            <p class="card-text h6 col">
-                                2021 - Actualidad
-                                <br>
-                                Administro un pequeño negocio en venta de alimentos y bebidas, gestion 
-                                del establecimiento con sus proveedores y atencion al cliete. 
-                            </p>
-                            <br>
-                            <h4 class="card-text col">Jade Bocadillos</h4>
-                            <p class="card-text h6 col">
-                                2013 - 2019
-                                <br>
-                                Mi experiencia se desenvuelve en diferentes áreas desde cocina, 
-                                limpieza, administración, manejo de personal, chequeo de caja 
-                                incluyendo atención al cliente y manejo de problemas. 
-                            </p>
+                
+            </div>
+        </section>
+        <aside class="container" id="aside">
+            <div class="col-xl-auto my-5">
+                <div class="card container" style="width: 25rem;">
+                    <div class="card-body" id="6">
+                        <div class="card-header">
+                            <h3 class="card-title">Experiencia</h3>
+                            <p class="card-text p-1 h6">
+                             Cuento con 6 meses de experiencia en desarrollo funcional de aplicaciones y 
+                             documentacion en Análisis de Requerimientos y Casos de pruebas de proyectos. 
+                        </p>
                         </div>
+                        <br>
+                        <br>
+                        <h4 class="card-text col">CONDUSEF</h4>
+                        <p class="card-text h6 col">
+                            2023 - Actualidad, Ciudad de México 
+                            <br>
+                            Durante mi servicio social me desempeñe en dos áreas en particular 
+                            las cuales fueron los análisis de requerimientos y en el área de 
+                            tester para los diferente proyectos que se fueron asignados al 
+                            departamento de desarrollo, centrándome en la parte funcional de 
+                            ambas ramas y siguiendo los protocolos de las ISO establecidas.
+                        </p>
+                        <br>
+                        <h4 class="card-text col">MaykCoffe</h4>
+                        <p class="card-text h6 col">
+                            2021 - Actualidad
+                            <br>
+                            Administro un pequeño negocio en venta de alimentos y bebidas, gestion 
+                            del establecimiento con sus proveedores y atencion al cliete. 
+                        </p>
+                        <br>
+                        <h4 class="card-text col">Jade Bocadillos</h4>
+                        <p class="card-text h6 col">
+                            2013 - 2019
+                            <br>
+                            Mi experiencia se desenvuelve en diferentes áreas desde cocina, 
+                            limpieza, administración, manejo de personal, chequeo de caja 
+                            incluyendo atención al cliente y manejo de problemas. 
+                        </p>
                     </div>
                 </div>
             </div>
-        </section>
+        </aside>
     </div>
     <br>
     <div>
-        <footer class="container-fluid p-5 my" id="9"><!--class: bg-dark -->
+        <footer class="container-fluid p-5 my" id="9">
             <h3>Contacto</h3>
-            <nav class="navbar navbar-expand-lg navbar-dark "> <!-- class: bg-dark-->
+            <nav class="navbar navbar-expand-lg navbar-dark ">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 container-fluid">
                     <li class="nav-item col-6">
                         <a class="btn" href="#0">

@@ -8,7 +8,7 @@ p, h1, .h1, h2, h3, h4, .h4,.h5, .dropdown-item, .card-title, span, button{
     color: #112D4E;
 }
 #githib, #linkedin, #gmail{
-    width: 45px;
+    width: 4rem;
 }
 header, footer,  nav{
     background-color: #112D4E;
@@ -16,9 +16,38 @@ header, footer,  nav{
 #nombreCabezado, .nav-link, #portafolo, #desCv, #cvDes, #nombrePie, #letra{
     color: #F9F7F7;
 }
-#nombreCabezado{
-    font-size: 4rem;
-}
 img{
     border-radius: 1rem;
+}
+#nombreCabezado, #nombrePie{
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+}
+#sistema_uridec, #pagina_uridec, #paint, #cafeteria, #calculadora, #diagramaDeGantt, #IDEs, #document{
+    height: 37rem;
+}
+.card-body{
+    display: table-cell;
+    vertical-align: middle;
+}
+#document{
+    display: flex;
+    align-items: center;
+}
+#section-0{
+    text-align:justify;
+    width:auto;
+}
+#aside{
+    width:auto;
+}
+#section-aside{
+    display:flex;
+    flex-direction : column;
+}
+@media screen and (min-aspect-ratio: 3/2) {
+    #section-aside{
+        display:flex;
+        flex-direction:row;
+    }   
 }
