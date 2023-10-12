@@ -24,11 +24,11 @@ function botones(pagina){
             win.focus;
             break;
         case 'cafeteria':
-            var win = window.open("https://zeuqzavleugim.github.io/pagCafeteriaMaykCoffe/", "_blank");
+            var win = window.open("https://zeuqzavleugim.github.io/MaykCoffe/", "_blank");
             win.focus;
             break;
         case 'pag_cafeteria':
-            var win = window.open("https://github.com/zeuqzavleugim/pagCafeteriaMaykCoffe", "_blank");
+            var win = window.open("https://github.com/zeuqzavleugim/MaykCoffe", "_blank");
             win.focus;
             break;
         case 'documentos':
