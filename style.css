@@ -21,7 +21,7 @@ img{
 }
 #nombreCabezado, #nombrePie{
     font-family: 'Oswald', sans-serif;
-    font-size: 70px;
+    font-size: 3rem;
 }
 #sistema_uridec, #pagina_uridec, #paint, #cafeteria, #calculadora, #diagramaDeGantt, #IDEs, #document{
     height: 37rem;
