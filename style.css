@@ -11,10 +11,10 @@ p, h1, .h1, h2, h3, h4, .h4,.h5, .dropdown-item, .card-title, span, button{
     width: 4rem;
 }
 header, footer,  nav{
-    background-color: #112D4E;
+    background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
 }
 #nombreCabezado, .nav-link, #portafolo, #desCv, #cvDes, #nombrePie, #letra{
-    color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
+    color: #000;
 }
 img{
     border-radius: 1rem;
