@@ -14,7 +14,7 @@ header, footer,  nav{
     background-color: #112D4E;
 }
 #nombreCabezado, .nav-link, #portafolo, #desCv, #cvDes, #nombrePie, #letra{
-    color: #F9F7F7;
+    color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
 }
 img{
     border-radius: 1rem;
